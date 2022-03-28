@@ -1,0 +1,20 @@
+@ARTICLE{10.3389/frobt.2021.712239,
+  
+AUTHOR={Ahn, Junhyeok and Jorgensen, Steven Jens and Bang, Seung Hyeon and Sentis, Luis},   
+	 
+TITLE={Versatile Locomotion Planning and Control for Humanoid Robots},      
+	
+JOURNAL={Frontiers in Robotics and AI},      
+	
+VOLUME={8},      
+	
+YEAR={2021},      
+	  
+URL={https://www.frontiersin.org/article/10.3389/frobt.2021.712239},       
+	
+DOI={10.3389/frobt.2021.712239},      
+	
+ISSN={2296-9144},   
+   
+ABSTRACT={We propose a locomotion framework for bipedal robots consisting of a new motion planning method, dubbed trajectory optimization for walking robots plus (TOWR+), and a new whole-body control method, dubbed implicit hierarchical whole-body controller (IHWBC). For versatility, we consider the use of a composite rigid body (CRB) model to optimize the robot’s walking behavior. The proposed CRB model considers the floating base dynamics while accounting for the effects of the heavy distal mass of humanoids using a pre-trained centroidal inertia network. TOWR+ leverages the phase-based parameterization of its precursor, TOWR, and optimizes for base and end-effectors motions, feet contact wrenches, as well as contact timing and locations without the need to solve a complementary problem or integer program. The use of IHWBC enforces unilateral contact constraints (i.e., non-slip and non-penetration constraints) and a task hierarchy through the cost function, relaxing contact constraints and providing an implicit hierarchy between tasks. This controller provides additional flexibility and smooth task and contact transitions as applied to our 10 degree-of-freedom, line-feet biped robot DRACO. In addition, we introduce a new open-source and light-weight software architecture, dubbed planning and control (PnC), that implements and combines TOWR+ and IHWBC. PnC provides modularity, versatility, and scalability so that the provided modules can be interchanged with other motion planners and whole-body controllers and tested in an end-to-end manner. In the experimental section, we first analyze the performance of TOWR+ using various bipeds. We then demonstrate balancing behaviors on the DRACO hardware using the proposed IHWBC method. Finally, we integrate TOWR+ and IHWBC and demonstrate step-and-stop behaviors on the DRACO hardware.}
+}

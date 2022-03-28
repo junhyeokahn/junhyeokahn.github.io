@@ -1,0 +1,15 @@
+@InProceedings{pmlr-v144-ahn21a,
+  title = 	 {Nested Mixture of Experts: Cooperative and Competitive Learning of Hybrid Dynamical System},
+  author =       {Ahn, Junhyeok and Sentis, Luis},
+  booktitle = 	 {Proceedings of the 3rd Conference on Learning for Dynamics and Control},
+  pages = 	 {779--790},
+  year = 	 {2021},
+  editor = 	 {Jadbabaie, Ali and Lygeros, John and Pappas, George J. and A.&nbsp;Parrilo, Pablo and Recht, Benjamin and Tomlin, Claire J. and Zeilinger, Melanie N.},
+  volume = 	 {144},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {07 -- 08 June},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v144/ahn21a/ahn21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v144/ahn21a.html},
+  abstract = 	 {Model-based reinforcement learning (MBRL) algorithms can attain significant sample efficiency but require an appropriate network structure to represent system dynamics. Current approaches include white-box modeling using analytic parameterizations and black-box modeling using deep neural networks. However, both can suffer from a bias-variance trade-off in the learning process, and neither provides a structured method for injecting domain knowledge into the network. As an alternative, gray-box modeling leverages prior knowledge in neural network training but only for simple systems. In this paper, we devise a nested mixture of experts (NMOE) for representing and learning hybrid dynamical systems. An NMOE combines both white-box and black-box models while optimizing bias-variance trade-off. Moreover, an NMOE provides a structured method for incorporating various types of prior knowledge by training the associative experts cooperatively or competitively. The prior knowledge includes information on robots’ physical contacts with the environments as well as their kinematic and dynamic properties. In this paper, we demonstrate how to incorporate prior knowledge into our NMOE in various continuous control domains, including hybrid dynamical systems. We also show the effectiveness of our method in terms of data-efficiency, generalization to unseen data, and bias-variance trade-off. Finally, we evaluate our NMOE using an MBRL setup, where the model is integrated with a model-based controller and trained online.}
+}
